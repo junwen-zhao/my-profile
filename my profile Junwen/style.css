@@ -1,0 +1,79 @@
+body{
+	background-color: #0092ea;
+	color: #00a1d8;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: center;
+}
+h1,h2,h3{
+	font-family: "Comic Sans MS";
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+}
+a {
+	font-size: 24px;
+	text-decoration: underline;
+	text-align: center;
+	color: #0092ea;
+}
+a:hover {
+	color: orange;
+	font-weight: bolder;
+}
+#logo{
+	width: 85px;
+	margin-bottom: 8px solid black
+	
+}
+.circle{
+	border-radius: 40px
+}
+.container {
+	width: 700px;
+	margin: 10px auto
+}
+.background {
+	background-color: #003a9b;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px rgb(0,0,0,0.5);
+	margin: 20px auto;
+	padding: 40px;
+}
+.button {
+    background-color: #374578;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+	box-shadow: 5px 10px 15px rgba(0,0,0,0.5)}
+
+@media (max-width: 1500px) {
+  .container {
+    width: 700px;
+  }
+  .background {
+  	width: 650px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .background {
+  	width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+  .background {
+  	width: 300px;
+  }
+}
